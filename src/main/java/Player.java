@@ -32,7 +32,10 @@ public class Player  {
         }
         }
         else if (Game.table.cardOnTable().getSymbol() == 11) {
-
+       // walet - żądanie konkretnej figury
+        }
+        else if (Game.table.cardOnTable().getSymbol() == 14){
+        // as - żądanie konkretnego koloru
         }
         else {useValiantCards();
         }
